@@ -968,7 +968,7 @@
 		7F515D4007B533D3003EA91C /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Catalog.strings; sourceTree = "<group>"; };
 		7F515D4207B533D3003EA91C /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Preferences.strings; sourceTree = "<group>"; };
 		7F5CFFC707FA76E700123A49 /* Quicksilver.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; path = Quicksilver.sdef; sourceTree = "<group>"; };
-		7F5D70CF091D9C76007A22C4 /* QSSplash.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QSSplash.qtz; sourceTree = "<group>"; };
+		7F5D70CF091D9C76007A22C4 /* QSSplash.qtz */ = {isa = PBXFileReference; lastKnownFileType = file; path = QSSplash.qtz; sourceTree = "<group>"; };
 		7F60F12607FA134600922645 /* QSMainPreferencePanes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSMainPreferencePanes.h; sourceTree = "<group>"; };
 		7F60F12707FA134600922645 /* QSMainPreferencePanes.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QSMainPreferencePanes.m; sourceTree = "<group>"; };
 		7F60F13107FA13B900922645 /* QSPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSPreferencePane.h; sourceTree = "<group>"; };
@@ -1691,13 +1691,13 @@
 			isa = PBXGroup;
 			children = (
 				4DC3DD0C0E0BB27B009902EF /* Common.xcconfig */,
-				4DC3DD0D0E0BB27B009902EF /* Debug.xcconfig */,
 				4DA1CCCF0E0BB61100CA6002 /* Developer.xcconfig */,
+				4DC3DD0D0E0BB27B009902EF /* Debug.xcconfig */,
+				4DC3DD130E0BB27B009902EF /* Release.xcconfig */,
 				4DC3DD110E0BB27B009902EF /* QSPlugIn.xcconfig */,
 				4D7A90020E39E7C200A7E6BE /* QSPlugIn_Debug.xcconfig */,
 				4DC3DD120E0BB27B009902EF /* QSPlugIn_Prefix.pch */,
 				4D7A90010E39E7B400A7E6BE /* QSPlugIn_Release.xcconfig */,
-				4DC3DD130E0BB27B009902EF /* Release.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";

@@ -1,2 +1,5 @@
 #  Ignore these files.
 .DS_Store
+build
+.svn
+occam.*
